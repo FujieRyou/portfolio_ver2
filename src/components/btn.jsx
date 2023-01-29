@@ -2,7 +2,8 @@ import { Link } from "react-router-dom"
 
 const Btn = ({txt}) =>{
     return(
-        <button type="button" className="btn">{txt}</button>
+        <Link to={`/Works/`}><button type="button" className="btn">{txt}</button></Link>
+        
     )
 }
 

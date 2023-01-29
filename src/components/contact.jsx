@@ -4,7 +4,7 @@ import twitter from "../img/twitter.svg"
 
 const Contact = () =>{
     return(
-        <div className="contactWrap">
+        <div className="contactWrap" id="contact">
             <h2>contact</h2>
             <div className="mailFlexWrap">
                 <p>mail</p>
@@ -14,8 +14,8 @@ const Contact = () =>{
                 <p>SNS</p>
                 <div className="iconWrap">
                     <a href="https://github.com/FujieRyou"><img src={github} alt="" /></a>
-                    <img src={Instagram} alt="" />
-                    <img src={twitter} alt="" />
+                    <a href="https://www.instagram.com/ryou_0722/"><img src={Instagram} alt="" /></a>
+                    <a href="https://twitter.com/fujiedes"><img src={twitter} alt="" /></a>
                 </div>
             </div>
         </div>
