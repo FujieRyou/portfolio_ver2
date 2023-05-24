@@ -34,8 +34,8 @@ const ProductionList = () =>{
                         <p>制作人数　{val.peopleNumber}</p>
                         <p>担当　　　{val.responsiblePerson}</p>
                         <p>使用言語　{val.language}</p>
-                        <p><a href={val.LP} target="_blank">LP：{val.LP}</a></p>
-                        <p><a href={val.app} target="_blank">app：{val.app}</a></p>
+                        <p><a href={val.LP}>LP：{val.LP}</a></p>
+                        <p><a href={val.app}>app：{val.app}</a></p>
                     </div>
                     <div className="productionImgWrap">
                         <img src={val.images} alt="" />
